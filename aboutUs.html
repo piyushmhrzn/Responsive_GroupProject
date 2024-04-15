@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="imgs/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="aboutUs">
+        <div class="navbar">
+            <nav class="container">   
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="imgs/ExplorePeak.png" alt="Explore Peak Logo">
+                    </a>
+                </div>    
+
+                <ul>
+                    <li><a href="thingsToDo.html">Things to do</a>  </li>
+                    <li><a href="placesToGo.html">Places to go</a> </li>
+                    <li><a href="aboutUs.html">About us</a></li>
+                </ul>                      
+            </nav>
+        </div>
+        
+        <div class="header_content container center">
+            <h1 class="large">About Us</h1>
+            <p class="small">
+                Meet the Team Behind ExplorePeak: Passionate Explorers Dedicated to Your Himalayan Adventure
+            </p>
+            <a href="aboutUs.html#whoAreWe" class="button hover">Our Story</a>
+        </div>           
+    </header>
+
+    <main>
+        <!-- AboutUs Info Section -->
+        <div class="container pb" id="whoAreWe">
+            <h2 class="medium pt center">Who Are We?</h2>
+            <div class="aboutUsInfo pb">
+                <div class="aboutUsInfo_content">
+                    <p class="small light">
+                        ExplorePeak brings the Himalayas closer to you with curated adventures and cultural insights. 
+                        Our mission is to illuminate the hidden gems and ancient traditions of this majestic region. 
+                        Through our guides, you'll experience the Himalayas like never before.
+                    </p>
+                    <p class="small light">
+                        We prioritize sustainable tourism and community engagement, ensuring your journey positively 
+                        impacts local culture and the environment.
+                    </p>
+                </div>
+    
+                <img src="imgs/aboutUs_WhoAreWe.png" alt="People gathering infront of tea house">
+            </div>
+        </div>
+
+        <hr class="container">
+
+        <!-- AboutUs Future Section -->
+        <div class="container pb">
+            <h2 class="medium center">Our Future</h2>
+            <div class="aboutUsFuture pb">
+                <img src="imgs/aboutUs_OurFuture.png" alt="Modern building nestled in the himalayas">
+
+                <div class="aboutUsFuture_content">
+                    <p class="small light">
+                        At ExplorePeak, we're committed to shaping a future where responsible travel practices thrive. 
+                        With a focus on sustainability and innovation, we're dedicated to preserving the natural beauty 
+                        of the Himalayas while fostering positive impacts on local communities.
+                    </p>
+                    <p class="small light">
+                        Through eco-conscious travel initiatives and support for indigenous cultures, we're shaping a 
+                        more sustainable future in the Himalayas.
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+        <hr class="container">
+
+         <!-- AboutUs Form Section -->
+         <div class="container pb" id="getInTouch">
+            <h2 class="medium center">Get in Touch</h2>
+
+            <form action="#" method="get" id="form">
+                <div class="formGroup">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your firstname and lastname" required>
+                </div>
+                <div class="formGroup">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="twoCol">
+                    <div class="formGroup">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your 10 digit mobile number">
+                    </div>
+                    
+                    <div class="formGroup">
+                        <label for="when">Schedule Plan:</label>
+                        <select id="when" name="when">
+                            <option value="anytime">Anytime</option>
+                            <option value="summer">Summer</option>
+                            <option value="winter">Winter</option>
+                            <option value="spring">Spring</option>
+                        </select>
+                    </div>    
+                </div>
+                <div class="formGroup">
+                    <label>Where do you want to go?</label>
+                    <div>
+                        <input type="checkbox" id="ebc_trek" name="ebc_trek" value="ebc_trek">
+                        <label for="ebc_trek" class="small">EBC trek</label> &nbsp;
+                        <input type="checkbox" id="abc_trek" name="abc_trek" value="abc_trek">
+                        <label for="abc_trek" class="small">ABC trek</label> &nbsp;
+                        <input type="checkbox" id="ladakh" name="ladakh" value="ladakh">
+                        <label for="ladakh" class="small">Ladakh</label>
+                    </div>
+                </div>
+                <div class="formGroup">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Leave your message here. Thank You!"></textarea>
+                </div>
+                <button type="submit" class="button">Submit</button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer container pt">
+            <div class="footer_content pb">
+                <div class="summary">
+                    <a href="index.html">
+                        <img src="imgs/ExplorePeak-white.png" alt="ExplorePeak footer logo">
+                    </a>
+                    <p class="small">
+                        Immerse yourself in the rich tapestry of culture, adventure, and natural beauty as we guide you through 
+                        the hidden gems and iconic landmarks of this majestic mountain range, ensuring every moment is a memory to cherish.
+                    </p>
+                    <div class="social_media">
+                        <img src="imgs/svg/facebook-svgrepo-com.svg" alt="facebook">
+                        <img src="imgs/svg/instagram-1-svgrepo-com.svg" alt="instagram">
+                        <img src="imgs/svg/google-plus-svgrepo-com.svg" alt="google-plus">
+                        <img src="imgs/svg/twitter-color-svgrepo-com.svg" alt="twitter">
+                        <img src="imgs/svg/snapchat-svgrepo-com.svg" alt="snapchat">
+                    </div>
+                </div>
+    
+                <div class="footer_links">
+                    <h3 class="normal">Quick Links</h3>
+
+                    <a href="thingsToDo.html">Things to do</a>  
+                    <a href="placesToGo.html">Places to go</a> 
+                    <a href="aboutUs.html">About us</a>
+                </div>
+    
+                <div class="contact_us">
+                    <h3 class="normal">Contact Us</h3>
+                    <p class="small">Mon. - Fri: 8 am - 7 pm</p>
+                    <p class="small">
+                        Explore Peak
+                        88 Everest Avenue
+                        P.O. Box 44600
+                        Nepal
+                    </p>
+                    <p class="small">
+                        Phone: (+977) 980 897 7556
+                    </p>
+                </div>
+            </div>
+            
+            <p id="copyright" class="center">Copyright &copy; 2024 ExplorePeak Inc.</p>
+        </div>
+    </footer>
+</body>
+</html>
